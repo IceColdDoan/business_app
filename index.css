@@ -1,0 +1,64 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-family: cursive;
+    font-size: 4vw;
+}
+
+.task {
+    color: green;
+    font-size: 60px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px; 
+
+
+}
+
+input[type=checkbox] {
+    margin-left: 50px; 
+}
+
+.bottom-taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: green;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+}
+
+.taskbar-section {
+    position: relative;
+    margin-right: 20px; /* Adjust the spacing between sections */
+    padding-right: 10px; /* Add padding to create a visual separation */
+}
+
+/* Add a pseudo-element for the border */
+.taskbar-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+/* Remove the border from the last section */
+.taskbar-section:last-child::after {
+    display: none;
+    margin-left: 30px;
+}
