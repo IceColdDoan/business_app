@@ -1,7 +1,6 @@
 body {
     background-image: url(sunsetPainting.jpg); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
-    background-size: 80%; /* This property ensures that the background image covers the entire body */
-    background-position: 50% 30%; /* This property centers the background image */
+    background-size: 100% 120%; /* This property ensures that the background image covers the entire body */
     background-repeat: no-repeat; /* This property ensures that the background image doesn't repeat */
     margin: 0; /* Remove default body margin */
 }
@@ -24,6 +23,7 @@ h1 {
     height: 40px;
     margin-bottom: 30px;
     margin-left: 20px; 
+    margin-top: 30px;
 
 
 }
@@ -43,7 +43,7 @@ input[type=checkbox] {
     left: 0;
     width: 100%;
     background-color: hsl(0, 0%, 30%);
-    color: green;
+    color: white;
     padding: 10px;
     text-align: center;
     font-family: cursive;
