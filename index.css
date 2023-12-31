@@ -1,27 +1,37 @@
-html {
-    background-color: black;
+body {
+    background-image: url(sunsetPainting.jpg); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: 80%; /* This property ensures that the background image covers the entire body */
+    background-position: 50% 30%; /* This property centers the background image */
+    background-repeat: no-repeat; /* This property ensures that the background image doesn't repeat */
+    margin: 0; /* Remove default body margin */
 }
+
 
 h1 {
     text-align: center;
-    color: green;
-    font-family: cursive;
-    font-size: 4vw;
+    color: white;
+    font-family: "Press Start 2P", "consolas";
+    font-size: 50px;
 }
 
+
+
 .task {
-    color: green;
-    font-size: 60px;
+    font-family: "Press Start 2P", "consolas";
+    color: white;
+    font-size: 30px;
     width: 40px;
     height: 40px;
     margin-bottom: 30px;
-    margin-left: 10px; 
+    margin-left: 20px; 
 
 
 }
 
 input[type=checkbox] {
-    margin-left: 50px; 
+    margin-left: 32%; 
+    transform: scale(.8); /* Adjust the scale factor as needed */
+    
 }
 
 .bottom-taskbar {
@@ -32,7 +42,7 @@ input[type=checkbox] {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: hsl(0, 0%, 30%);
     color: green;
     padding: 10px;
     text-align: center;
@@ -62,3 +72,4 @@ input[type=checkbox] {
     display: none;
     margin-left: 30px;
 }
+
