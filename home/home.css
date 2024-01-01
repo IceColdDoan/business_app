@@ -1,0 +1,84 @@
+body {
+    background-image: url(sunsetPainting.jpg);
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Press Start 2P", "consolas";
+    font-size: 50px;
+}
+
+.tasks-container {
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    text-align: center;
+    font-family: "Press Start 2P", "consolas";
+    color: whitesmoke;
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 50px;
+    margin-left: 30%; 
+    margin-top: 60px;
+    
+
+    
+}
+
+.task-checkbox {
+    margin-right: 10%;
+    transform: scale(3);
+    cursor: pointer;
+    
+}
+
+.bottom-taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+}
+
+.taskbar-section {
+    flex-grow: 1;
+    position: relative;
+    display: block; /* Make the entire button clickable */
+    cursor: pointer;
+}
+
+button {
+    background-color: grey;
+    font-family: "Press Start 2P";
+    font-size: 100%;
+    padding: 8px;
+}
+
+a {
+    color: white;  /* Set the color to your preferred color */
+    text-decoration: none; /* Remove the underline if desired */
+}
+
+a:visited {
+    color: white; /* Set the color for visited links */
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: white; /* Set the color for the hover state */
+}
