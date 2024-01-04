@@ -1,8 +1,7 @@
 body {
     background-image: url(sunsetPainting.jpg);
-    background-size: 100% 105%;
-    background-repeat: no-repeat;
-    margin: 0px;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat; 
 }
 
 h1 {
@@ -27,9 +26,16 @@ h1 {
     margin-bottom: 50px;
     margin-left: 30%; 
     margin-top: 60px;
-    
+}
 
-    
+.task-item:last-child {
+    background: -webkit-linear-gradient(top left, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.task-item:hover {
+    color: hsl(0, 0%, 80%);
 }
 
 .task-checkbox {
@@ -61,6 +67,10 @@ h1 {
     cursor: pointer;
 }
 
+.taskbar-section:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
 button {
     background-color: grey;
     font-family: "Press Start 2P";
@@ -82,3 +92,4 @@ a:visited {
 a:hover {
     color: white; /* Set the color for the hover state */
 }
+
